@@ -6,8 +6,19 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 import common.ConstantsBasePatterns;
-
+/**
+ * Input primitives via Dialog
+ * @author Timon
+ *
+ */
 public class DialogInputValidator {
+	
+	/**
+	 * Get double via Dialog
+	 * @param message
+	 * @param errMessage
+	 * @return
+	 */
 	public static double dialogDouble(String message, String errMessage) {
 		double output = 0.0;
 		
