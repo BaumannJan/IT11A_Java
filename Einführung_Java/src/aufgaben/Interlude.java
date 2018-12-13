@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class Interlude {
 	public static void main(String[] args) {
-		aufg51Array();
+		aufg51ArrayList();
 	}
 	
 	/**
