@@ -6,6 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="lib/aplu5.jar"/>
+	<classpathentry kind="lib" path="lib/aplu5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/TestProject/doc/apludoc.zip!/turtle"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
