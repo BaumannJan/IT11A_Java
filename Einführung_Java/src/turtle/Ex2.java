@@ -11,7 +11,6 @@ public class Ex2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
 		GPanel panel = new GPanel();
 		for (int i = 0; 30 < 31; i++) {
 
@@ -23,16 +22,14 @@ public class Ex2 {
 
 			panel.setColor(rdmColor());
 			panel.fillRectangle(xmin, ymin, xmax, ymax);
-			Thread.sleep(1);
+			Thread.sleep(19);
 		}
 	}
-
+	
 	public static Color rdmColor() {
 		int red = r.nextInt(255);
 		int green = r.nextInt(255);
 		int blue = r.nextInt(255);
 		return new Color(red, green, blue);
-
 	}
-
 }
