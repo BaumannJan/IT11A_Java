@@ -29,7 +29,7 @@ public class Cube {
 
 	private static void drawDice(GPanel panel, int n, int count) {
 
-		double l = 0.06;
+		double l = 0.08;
 		double d = l + 0.02;
 		int augenFaktor = 8;
 
